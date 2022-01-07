@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+body{
+    background-color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+.layout-page{
+    display:flex;
+}
+.main-page{
+    display:flex;
+    flex-direction: column;
+    padding-top:152px;
+    padding-left: 80px;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    margin-bottom: 52px;
+}
+.img-texts{
+    display:flex;
+    flex-direction: column;
+}
+.img-galeria{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+}
+.lower-text{
+    display:flex;
+    justify-content: space-between;
+}
+.side-bar{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #313131;
+    position: fixed;
+    top:0;
+    bottom:0;
+}
+.side-bar h2{
+    cursor:pointer;
+}
+.top-icons{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+}
+.second-text{
+    color: #5C5C5C;
+
+}
+img.gallery{
+    width:100%;
+}
+img{
+    cursor:pointer;
+}
+svg{
+    cursor: pointer;
+}
+.home{
+    display:flex;
+    align-items: center;
+    color: #888888;
+}
+.heart{
+    display:flex;
+    align-items: center;
+    color: #888888;
+}
+.settings{
+    display:flex;
+    align-items: center;
+    color: #888888;
+}
+h2{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 25px;
+
+}
+.hide{
+    display:none;
+}
+.modal{
+    display:none;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:fixed;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.modal img{
+    width:35%
+}
+.x-modal{
+    visibility: hidden;
+    position:fixed;
+    top:70px;
+    right:35px;
+}
+.next-image{
+    visibility: hidden;
+    position:fixed;
+    top:325px;
+    right:18.5%
+}
+.previous-image{
+    visibility: hidden;
+    position:fixed;
+    top:325px;
+    left:18.5%
+}
+.picture{
+    position: absolute;
+}
+img.like-heart{
+    position: relative;
+    bottom:220px;
+    right:-285px; 
+}
+.heart-visible{
+    visibility: hidden;
+}
