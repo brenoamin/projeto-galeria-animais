@@ -5,7 +5,8 @@
 ## Exercícios de classe 🏫
 1. Projeto "Galeria"
 
----
+![image](https://user-images.githubusercontent.com/62851616/148562731-777db16a-c432-4adb-a165-55e5495fbbdd.png)
+
 
 Preencha a checklist para fazer os exercícios:
 
